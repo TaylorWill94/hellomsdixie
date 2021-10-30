@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    display: grid;
+    grid-column: 3fr 3fr 3fr;
+}
+
+
+h1 {
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-family: monospace;
+    padding: 25px;
+}
+
+
+section {
+    text-align: center;
+    font-family: monospace;
+    padding: 20px;
+}
+
+article {
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 25px;
+    background: linear-gradient(90deg, pink, rgb(165, 165, 218), grey);
+    border-radius: 12px;
+}
+
+
+input {
+    border-radius: 12px;
+    background-color:lavender;
+    color: green;
+}
+
+.home {
+    text-align: center;
+}
