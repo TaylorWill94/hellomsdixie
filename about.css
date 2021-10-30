@@ -4,6 +4,10 @@ body {
     grid-column: 3fr 3fr 3fr;
 }
 
+header {
+    padding: 50px;
+}
+
 
 h1 {
     color: black;
@@ -11,14 +15,16 @@ h1 {
     text-align: center;
     font-family: monospace;
     font-weight: 14px;
-    padding: 10px;
+    padding: 20px;
+    padding-bottom: 20px;
 }
 
 
 section {
     text-align: center;
     font-family: monospace;
-    padding: 20px;
+    padding: 10px;
+    margin: auto;
 }
 
 article {
@@ -32,7 +38,7 @@ article {
 
 input {
     border-radius: 12px;
-    background-color:lavender;
+    background-color:rgb(255, 255, 255);
     color: green;
     padding: 20px;
 }
