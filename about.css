@@ -10,7 +10,8 @@ h1 {
     background-color: white;
     text-align: center;
     font-family: monospace;
-    padding: 25px;
+    font-weight: 14px;
+    padding: 10px;
 }
 
 
@@ -33,6 +34,7 @@ input {
     border-radius: 12px;
     background-color:lavender;
     color: green;
+    padding: 20px;
 }
 
 .home {
