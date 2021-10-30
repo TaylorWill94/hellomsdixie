@@ -1,0 +1,67 @@
+body {
+    display: grid;
+    grid-column: 3fr 3fr 3fr;
+    grid-row: inherit;
+    background-color: white;
+}
+
+header {
+    grid-column: 1 span 3;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-weight: 14px;
+}
+
+.nav {
+    margin: 30px;
+}
+
+button {
+    font-family: monospace;
+    background-color:lavender;
+    color: green;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+section {
+    background: linear-gradient(45deg, pink, rgb(161, 161, 112), rgb(153, 141, 153));
+    border-radius: 12px;
+    padding: 10px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 12px;
+    
+}
+
+article {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    padding: 50px;
+}
+
+footer {
+    text-align: center;
+    margin: 50px;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    padding: 5px;
+}
+
+input {
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.welcome {
+    padding: 20px;
+}
